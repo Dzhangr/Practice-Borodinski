@@ -10,39 +10,39 @@
 
 .page-body {
     min-height: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: grid;
     grid-template-rows: min-content 1fr min-content;
-
+    background-color: #020202;
+    background-image: url("../img/background-body.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: #FFFFFF;
 }
 
-.page-header {
-    outline: 5px dotted rgb(134, 13, 0);
-    outline-offset: -5px;
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
 }
 
-.page-navigation {
+.grid-container {
     display: grid;
-    outline: 5px dotted rgb(112, 142, 21);
-    outline-offset: -5px;
+    grid-template-columns: 1fr min-content;
 }
 
-.page-main {
-    outline: 5px dotted rgb(3, 180, 220);
-    outline-offset: -5px;
+.page-header-navigation {
+    display: grid;
 }
 
-.page-footer {
-    height: 193px;
-    outline: 5px dotted rgb(46, 46, 46);
-    outline-offset: -5px;
-}
-
-.bar {
+.navigation-main-menu {
     background-color: #000000;
+    min-height: 72px;
+    color: #FFFFFF;
 }
 
-.page-header-logo {
+.header-navigation-logo {
     order: 1;
+    text-align: center;
 }
